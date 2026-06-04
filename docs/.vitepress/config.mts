@@ -8,7 +8,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', href: 'siam.svg' }
+      { rel: 'icon', href: '/siam.svg' }
     ]
   ],
   cleanUrls: true,
