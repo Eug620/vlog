@@ -15,7 +15,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'siam.svg',
+    logo: '/siam.svg',
     siteTitle: '三文鱼',
     nav: [
       { text: '首页', link: '/' },
