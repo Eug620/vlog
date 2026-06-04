@@ -18,7 +18,6 @@ export default defineConfig({
     logo: '/siam.svg',
     siteTitle: '三文鱼',
     nav: [
-      { text: '首页', link: '/' },
       {
         text: 'Discuss', link: 'discuss/index'
       },
