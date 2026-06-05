@@ -6,6 +6,9 @@ hero:
   name: "三文鱼"
   text: "Welcome！"
   tagline: My great project tagline
+  image:
+    src: /siam.svg
+    alt: 三文鱼
   actions:
     - theme: brand
       text: Discuss
@@ -13,13 +16,5 @@ hero:
     - theme: alt
       text: NestJS
       link: /nestjs/index
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

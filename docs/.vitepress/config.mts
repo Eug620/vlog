@@ -8,7 +8,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', href: '/siam.svg' }
+      { rel: 'icon', href: '/vlog/siam.svg' }
     ]
   ],
   cleanUrls: true,
@@ -19,16 +19,16 @@ export default defineConfig({
     siteTitle: '三文鱼',
     nav: [
       {
-        text: 'Discuss', link: 'discuss/index'
+        text: 'Discuss', link: '/discuss/', activeMatch: '/discuss/'
       },
       {
-        text: 'NestJS', link: 'nestjs/index'
+        text: 'NestJS', link: '/nestjs/', activeMatch: '/nestjs/'
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/eug620' },
       { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
+      { icon: 'github', link: 'https://github.com/eug620' },
     ],
 
     sidebar: {
@@ -37,9 +37,9 @@ export default defineConfig({
           text: 'NestJS',
           // collapsed: false,
           items: [
-            { text: '概述', link: 'nestjs/index' },
-            { text: '快速开始', link: 'nestjs/started' },
-            { text: '部署', link: 'nestjs/deploy' },
+            { text: '概述', link: '/nestjs/' },
+            { text: '快速开始', link: '/nestjs/started' },
+            { text: '部署', link: '/nestjs/deploy' },
           ]
         },
       ],
@@ -48,9 +48,9 @@ export default defineConfig({
           text: 'Discuss',
           // collapsed: false,
           items: [
-            { text: '概述', link: 'discuss/index' },
-            { text: '快速开始', link: 'discuss/started' },
-            { text: '部署', link: 'discuss/deploy' },
+            { text: '概述', link: '/discuss/' },
+            { text: '快速开始', link: '/discuss/started' },
+            { text: '部署', link: '/discuss/deploy' },
           ]
         }
       ]
