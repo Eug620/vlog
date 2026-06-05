@@ -19,7 +19,7 @@ npm install
 
 复制 `.env` 文件并根据实际情况修改配置：
 
-```env
+```bash
 # 构建信息
 VITE_APP_BUILD_INFO=development
 
