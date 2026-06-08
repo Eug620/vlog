@@ -19,10 +19,10 @@ export default defineConfig({
     siteTitle: '三文鱼',
     nav: [
       {
-        text: 'Discuss', link: '/discuss/', activeMatch: '/discuss/'
+        text: '2025', link: '/2025/04/20', activeMatch: '/2025/'
       },
       {
-        text: 'NestJS', link: '/nestjs/', activeMatch: '/nestjs/'
+        text: '2026', link: '/2026/01/28', activeMatch: '/2026/'
       }
     ],
 
@@ -32,25 +32,44 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/nestjs/': [
+      '/2025/': [
         {
-          text: 'NestJS',
-          // collapsed: false,
+          text: '04',
           items: [
-            { text: '概述', link: '/nestjs/' },
-            { text: '快速开始', link: '/nestjs/started' },
-            { text: '部署', link: '/nestjs/deploy' },
+            { text: '20', link: '/2025/04/20' }
+          ]
+        },
+        {
+          text: '06',
+          items: [
+            { text: '01', link: '/2025/06/01' }
+          ]
+        },
+        {
+          text: '07',
+          items: [
+            { text: '26', link: '/2025/07/26' }
+          ]
+        },
+        {
+          text: '09',
+          items: [
+            { text: '17', link: '/2025/09/17' },
+            { text: '26', link: '/2025/09/26' },
+          ]
+        },
+        {
+          text: '12',
+          items: [
+            { text: '05', link: '/2025/12/05' }
           ]
         },
       ],
-      '/discuss/': [
+      '/2026/': [
         {
-          text: 'Discuss',
-          // collapsed: false,
+          text: '01',
           items: [
-            { text: '概述', link: '/discuss/' },
-            { text: '快速开始', link: '/discuss/started' },
-            { text: '部署', link: '/discuss/deploy' },
+            { text: '28', link: '/2026/01/28' }
           ]
         }
       ]
