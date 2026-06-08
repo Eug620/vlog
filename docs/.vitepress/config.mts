@@ -59,6 +59,12 @@ export default defineConfig({
           ]
         },
         {
+          text: '11',
+          items: [
+            { text: '23', link: '/2025/11/23' }
+          ]
+        },
+        {
           text: '12',
           items: [
             { text: '05', link: '/2025/12/05' }
@@ -75,10 +81,10 @@ export default defineConfig({
       ]
     },
 
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Eug'
-    },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2019-present Eug'
+    // },
 
 
     search: {
