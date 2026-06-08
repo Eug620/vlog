@@ -34,38 +34,38 @@ export default defineConfig({
     sidebar: {
       '/2025/': [
         {
-          text: '04',
+          text: '4月',
           items: [
             { text: '20', link: '/2025/04/20' }
           ]
         },
         {
-          text: '06',
+          text: '6月',
           items: [
             { text: '01', link: '/2025/06/01' }
           ]
         },
         {
-          text: '07',
+          text: '7月',
           items: [
             { text: '26', link: '/2025/07/26' }
           ]
         },
         {
-          text: '09',
+          text: '9月',
           items: [
             { text: '17', link: '/2025/09/17' },
             { text: '26', link: '/2025/09/26' },
           ]
         },
         {
-          text: '11',
+          text: '11月',
           items: [
             { text: '23', link: '/2025/11/23' }
           ]
         },
         {
-          text: '12',
+          text: '12月',
           items: [
             { text: '05', link: '/2025/12/05' }
           ]
@@ -73,7 +73,7 @@ export default defineConfig({
       ],
       '/2026/': [
         {
-          text: '01',
+          text: '1月',
           items: [
             { text: '28', link: '/2026/01/28' }
           ]

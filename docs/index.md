@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "三文鱼"
+  name: "lsy"
   text: "Welcome！"
   tagline: My great project tagline
   image:
