@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "lsy"
-  text: "Welcome！"
-  tagline: My great project tagline
+  name: "YYH&LSY"
+  text: "Welcome my vlog！"
+  tagline: 记录美好生活
   image:
     src: /siam.svg
     alt: 三文鱼
