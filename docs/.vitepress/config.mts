@@ -54,13 +54,13 @@ export default defineConfig({
         {
           text: '9月',
           items: [
-            { text: '17', link: '/2025/09/17' },
             { text: '26', link: '/2025/09/26' },
           ]
         },
         {
           text: '11月',
           items: [
+            { text: '06', link: '/2025/11/06' },
             { text: '23', link: '/2025/11/23' }
           ]
         },
