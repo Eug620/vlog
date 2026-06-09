@@ -26,10 +26,10 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      // { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
-      // { icon: 'github', link: 'https://github.com/eug620' },
-    ],
+    // socialLinks: [
+    //   { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
+    //   { icon: 'github', link: 'https://github.com/eug620' },
+    // ],
 
     sidebar: {
       '/2025/': [
