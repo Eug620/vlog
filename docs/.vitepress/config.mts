@@ -48,6 +48,7 @@ export default defineConfig({
         {
           text: '7月',
           items: [
+            { text: '14', link: '/2025/07/14' },
             { text: '26', link: '/2025/07/26' }
           ]
         },
