@@ -62,13 +62,20 @@ export default defineConfig({
           text: '11月',
           items: [
             { text: '06', link: '/2025/11/06' },
-            { text: '23', link: '/2025/11/23' }
+            { text: '12', link: '/2025/11/12' },
+            { text: '18', link: '/2025/11/18' },
+            { text: '19', link: '/2025/11/19' },
+            { text: '23', link: '/2025/11/23' },
+            { text: '26', link: '/2025/11/26' },
           ]
         },
         {
           text: '12月',
           items: [
-            { text: '05', link: '/2025/12/05' }
+            { text: '05', link: '/2025/12/05' },
+            { text: '07', link: '/2025/12/07' },
+            { text: '13', link: '/2025/12/13' },
+            { text: '25', link: '/2025/12/25' },
           ]
         },
       ],
@@ -76,9 +83,17 @@ export default defineConfig({
         {
           text: '1月',
           items: [
+            { text: '17', link: '/2026/01/17' },
             { text: '28', link: '/2026/01/28' }
           ]
-        }
+        },
+        {
+          text: '2月',
+          items: [
+            { text: '08', link: '/2026/02/08' },
+            { text: '14', link: '/2026/02/14' },
+          ]
+        },
       ]
     },
 
