@@ -35,18 +35,21 @@ export default defineConfig({
       '/2025/': [
         {
           text: '4月',
+          collapsed: false,
           items: [
             { text: '20', link: '/2025/04/20' }
           ]
         },
         {
           text: '6月',
+          collapsed: true,
           items: [
             { text: '01', link: '/2025/06/01' }
           ]
         },
         {
           text: '7月',
+          collapsed: true,
           items: [
             { text: '14', link: '/2025/07/14' },
             { text: '26', link: '/2025/07/26' }
@@ -54,12 +57,14 @@ export default defineConfig({
         },
         {
           text: '9月',
+          collapsed: true,
           items: [
             { text: '26', link: '/2025/09/26' },
           ]
         },
         {
           text: '11月',
+          collapsed: true,
           items: [
             { text: '06', link: '/2025/11/06' },
             { text: '12', link: '/2025/11/12' },
@@ -71,6 +76,7 @@ export default defineConfig({
         },
         {
           text: '12月',
+          collapsed: true,
           items: [
             { text: '05', link: '/2025/12/05' },
             { text: '07', link: '/2025/12/07' },
@@ -82,6 +88,7 @@ export default defineConfig({
       '/2026/': [
         {
           text: '1月',
+          collapsed: false,
           items: [
             { text: '17', link: '/2026/01/17' },
             { text: '28', link: '/2026/01/28' }
@@ -89,9 +96,32 @@ export default defineConfig({
         },
         {
           text: '2月',
+          collapsed: true,
           items: [
             { text: '08', link: '/2026/02/08' },
             { text: '14', link: '/2026/02/14' },
+          ]
+        },
+        {
+          text: '3月',
+          collapsed: true,
+          items: [
+            { text: '05', link: '/2026/03/05' },
+            { text: '31', link: '/2026/03/31' },
+          ]
+        },
+        {
+          text: '4月',
+          collapsed: true,
+          items: [
+            { text: '30', link: '/2026/04/30' },
+          ]
+        },
+        {
+          text: '5月',
+          collapsed: true,
+          items: [
+            { text: '31', link: '/2026/05/31' },
           ]
         },
       ]
