@@ -56,6 +56,13 @@ export default defineConfig({
           ]
         },
         {
+          text: '8月',
+          collapsed: true,
+          items: [
+            { text: '29', link: '/2025/08/29' },
+          ]
+        },
+        {
           text: '9月',
           collapsed: true,
           items: [
