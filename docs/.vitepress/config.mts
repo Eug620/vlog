@@ -147,6 +147,9 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '01', link: '/2026/07/01' },
+            { text: '04', link: '/2026/07/04' },
+            { text: '08', link: '/2026/07/08' },
+            { text: '09', link: '/2026/07/09' },
           ]
         },
       ]
