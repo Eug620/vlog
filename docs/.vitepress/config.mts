@@ -150,6 +150,7 @@ export default defineConfig({
             { text: '04', link: '/2026/07/04' },
             { text: '08', link: '/2026/07/08' },
             { text: '09', link: '/2026/07/09' },
+            { text: '13', link: '/2026/07/13' },
           ]
         },
       ]
