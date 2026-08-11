@@ -28,7 +28,7 @@ export default defineConfig({
 
     // socialLinks: [
     //   { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
-    //   { icon: 'github', link: 'https://github.com/eug620' },
+    //   { icon: 'github', link: 'https://github.com/ulnae' },
     // ],
 
     sidebar: {
@@ -203,7 +203,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Eug620/vlog/edit/master/docs/:path',
+      pattern: 'https://github.com/ulnae/vlog/edit/master/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
