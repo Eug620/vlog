@@ -1,17 +1,41 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import type { Theme } from 'vitepress'
+import { h, nextTick, watch  } from 'vue'
+import { useRoute, type Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import Giscus from './components/Giscus.vue';
 import './style.css'
+import './medium-zoom.css';
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
+      'doc-after': () => h(Giscus),
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-  }
+  },
+  setup() {
+    const route = useRoute();
+    watch(
+      () => route.path,
+      () => nextTick(() => {
+        // 处理medium-zoom打包报错问题
+        // https://github.com/francoischalifour/medium-zoom/issues/81
+        (typeof window !== 'undefined') && import('medium-zoom').then(mediumZoom => {
+          mediumZoom.default('.main img', {
+            // background: 'var(--vp-c-bg)',
+            background: 'transparent',
+          })
+        })
+        // mediumZoom('.main img', {
+        //   // background: 'var(--vp-c-bg)',
+        //   background: 'transparent',
+        // });
+      }),
+      { immediate: true }
+    )
+  },
 } satisfies Theme

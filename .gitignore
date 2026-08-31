@@ -1,3 +1,13 @@
 docs/.vitepress/dist
 docs/.vitepress/cache
 node_modules
+
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+
+# VitePress cache
+docs/.vitepress/cache

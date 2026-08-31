@@ -7,6 +7,10 @@ export default defineConfig({
   base: '/vlog/',
   head: [
     [
+      'meta',
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
+    ],
+    [
       'link',
       { rel: 'icon', href: '/vlog/siam.svg' }
     ]
@@ -216,7 +220,7 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
 
-    sidebarMenuLabel:'菜单',
+    sidebarMenuLabel: '菜单',
     returnToTopLabel: '返回顶部',
 
     externalLinkIcon: true,
@@ -231,6 +235,43 @@ export default defineConfig({
   ignoreDeadLinks: [
     // 忽略所有 localhost 链接
     /^https?:\/\/localhost/,
-  ]
+  ],
+
+
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoad: true,
+    },
+    // lineNumbers: true
+
+  },
+
+  vite: {
+    server: {
+      host: '0.0.0.0',
+    },
+    plugins: [
+    ],
+    build: {
+      rollupOptions: {
+        output: {
+          // 配置代码分割
+          codeSplitting: {
+            groups: [
+              {
+                test: /node_modules\/medium-zoom/,
+                name: 'medium-zoom',
+              },
+              {
+                test: /node_modules\/@giscus\/vue/,
+                name: 'giscus',
+              },
+            ],
+          },
+        },
+      },
+    },
+  }
 
 })
